@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+        <head>
+		<meta charset="utf-8">
+		<title>{{ page.title }}</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+<body>
+  <header>
+    <h1 class="title">GT GéoAlgo</h1>
+    <!--<img src="photo.jpg" alt="Theo Lacombe" class="picture" />-->
+    <p class="subtitle">Maître de conférence, LIGM, Université Gustave Eiffel</p>
+  </header>
+
+<hr>
+     <nav>
+         <ul>
+        		<li><a href="/">Accueil</a></li>
+			<li><a href="/geometryThem">Année Géométrie</a></li>			
+			<li><a href="/jga">Les JGA</a></li>
+        		<li><a href="/teams">Les équipes</a></li>
+        		<li><a href="/other">Autres</a></li>
+    		</ul>
+		</nav>
+                <hr>  
+		<div class="container">
+		
+		{{ content }}
+		
+		</div><!-- /.container -->
+		<hr>
+		<footer>
+    		<ul>
+        		<li><a href="mailto:theo.lacombe@univ-eiffel.fr">Contacter les responsables</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
